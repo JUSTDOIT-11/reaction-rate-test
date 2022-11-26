@@ -1,0 +1,29 @@
+.test-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+.test-box-div {
+  background-color: rgb(115, 155, 221);
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-box-div h1:hover {
+  cursor: pointer;
+}
+
+.test-result {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.test-result span {
+  margin: 5px 0px;
+}
