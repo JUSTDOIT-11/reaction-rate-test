@@ -9,30 +9,33 @@
   </head>
   <body>
     <div class="layout">
-      <div class="top-bar">
+      <header class="top-bar">
         <div class="top-left-bar">
           <i class="fa-solid fa-bars fa-2x"></i>
         </div>
         <div class="top-middle-bar">
-          <i class="fa-solid fa-gauge fa-2x"></i>
+          <i class="middle-i fa-solid fa-gauge fa-2x"></i>
           <span>Reaction Test</span>
         </div>
         <div class="top-right-bar">
           <span>Another Test <i class="fa-solid fa-arrow-right"></i></span>
         </div>
-      </div>
+      </header>
       <main class="test-box">
-        <div class="test-box-div">
-          <h1>시작</h1>
-          <h3>배경화면이 초록색이 되었을 때 클릭하세요.</h3>
+        <span class="start-btn">Start</span>
+        <div class="test-box-div disabled">
+          <div class="test-box-h3">
+            <h3 class="notice-top noticeMargin">
+              Start 버튼을 눌러 시작하세요!
+            </h3>
+            <h3 class="notice-bot invisible"></h3>
+          </div>
         </div>
-        <div class="test-result">
-          <span>n번째 시도: 387ms</span>
-          <span>n번째 시도: 387ms</span>
-          <span>n번째 시도: 387ms</span>
-          <span>n번째 시도: 387ms</span>
-        </div>
+        <button class="re-start-btn invisible">ReStart!</button>
       </main>
+      <footer class="result-box">
+        <div class="test-result"></div>
+      </footer>
     </div>
 
     <script src="JS/app.js"></script>

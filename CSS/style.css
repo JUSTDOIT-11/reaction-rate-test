@@ -1,20 +1,11 @@
 @import "reset.css";
 @import "top-bar.css";
 @import "test-box.css";
+@import "store.css";
 
 .layout {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 500px;
-}
-
-/*option*/
-
-.start-background-color {
-  background-color: pink;
-}
-
-.green {
-  background-color: green;
 }

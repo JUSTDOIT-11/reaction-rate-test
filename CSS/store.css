@@ -1,0 +1,31 @@
+.start-background-color {
+  background-color: pink;
+}
+
+.end-background-color {
+  background-color: #252525;
+}
+
+.green {
+  background-color: green;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+.noticeMargin {
+  margin-top: 6rem;
+}
+
+.noticeEndMargin {
+  margin-bottom: 4rem;
+}
